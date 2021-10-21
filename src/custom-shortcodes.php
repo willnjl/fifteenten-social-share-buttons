@@ -97,5 +97,10 @@ function Fifteenten_CreateSocialShortcode()
         </li>
     </ul>
 
+    <script>
+        let links = document.querySelectorAll('.fiften_sharers__link');
+        links && (links.forEach(link => {link.addEventListener('click', e => {e.preventDefault();let strWindowFeatures = "location=yes,height=570,width=520,scrollbars=yes,status=yes";let destination = e.target.getAttribute('href');window.open(destination, '_blank',strWindowFeatures );})});
+    </script>
+
     <?
 }
