@@ -5,7 +5,7 @@
         "wordpress",
         "plugin"
     ],
-    "homepage": "https://github.com/willnjl/fifteenten-social-share-buttons",
+    "homepage": "git@github.com:willnjl/fifteenten-social-share-buttons.git",
     "authors": [
         {    
             "name" : "Will Leighton",
